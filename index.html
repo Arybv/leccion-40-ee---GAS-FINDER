@@ -11,10 +11,30 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <div class="root"></div>
+<!--
+    <div id="map" style="width:300px; height:300px;"></div>
+    <script type="text/javascript">
+      $(function() {
+        $("#map").googleMap();
+        $("#map").addMarker({
+          coords: [48.895651, 2.290569],
+          url: 'http://www.tiloweb.com',
+          id: 'marker1'
+        });
+      })
+    </script>
+    ***************************
+    <form id="form" name="forma" action="index.html" method="post">
+      <a href="#" onclick="AgregarCampos();">Agregar Campos</a>
+      <div id="campos">-->
+      <form class="" action="index.html" method="post">
+        <input type="text">
+      </form>
 
+    <div class="root"></div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYFSOFfx1vA-RGbnTVVSu6pQmqdXu1-hc"></script>
+
+    <script type="text/javascript"  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNa-eO1XHfVJNThAtLv07TdNjc-U1mj1E&callback=initMap"></script>
     <script src="js/vendor/gmaps.min.js"></script>
 
     <script src="js/utils/get-json.js"></script>

@@ -5,6 +5,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 100%;
+}
 header {
   color: #fff;
   font-size: 18px;
@@ -17,3 +25,5 @@ header {
 header .fa-chevron-left {
   margin-right: 16px;
 }
+
+/*CSS MAPA*/
