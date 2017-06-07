@@ -1,45 +1,34 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Gas Finder</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-<!--
-    <div id="map" style="width:300px; height:300px;"></div>
-    <script type="text/javascript">
-      $(function() {
-        $("#map").googleMap();
-        $("#map").addMarker({
-          coords: [48.895651, 2.290569],
-          url: 'http://www.tiloweb.com',
-          id: 'marker1'
-        });
-      })
-    </script>
-    ***************************
-    <form id="form" name="forma" action="index.html" method="post">
-      <a href="#" onclick="AgregarCampos();">Agregar Campos</a>
-      <div id="campos">-->
-      <form class="" action="index.html" method="post">
-        <input type="text">
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Gas Finder</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+      <div class="root"></div>
+      <form class="searchform" action="index.html" method="post">
+        <input type="text" placeholder="Ingrece su distrito a buscar">
       </form>
 
-    <div class="root"></div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--  <button type="submit" class="icon-search"><span class="visuallyhidden"></span></button>-->
 
-    <script type="text/javascript"  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNa-eO1XHfVJNThAtLv07TdNjc-U1mj1E&callback=initMap"></script>
-    <script src="js/vendor/gmaps.min.js"></script>
+      <div id="map"></div>
 
-    <script src="js/utils/get-json.js"></script>
-    <script src="js/utils/filters.js"></script>
-    <script src="js/components/header.js"></script>
-    <script src="js/index.js"></script>
-  </body>
-</html>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoJKb4ARmJnvYUO3BHQzYTnT2mfenUCLM"></script>
+      <script src="js/vendor/gmaps.min.js"></script>
+
+      <script src="js/utils/get-json.js"></script>
+      <script src="js/utils/filters.js"></script>
+      <script src="js/components/header.js"></script>
+      <script src="js/components/mapa.js"></script>
+      <script src="js/components/search.js"></script>
+      <script src="js/index.js"></script>
+    </body>
+  </html>

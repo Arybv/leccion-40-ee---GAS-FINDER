@@ -26,4 +26,12 @@ header .fa-chevron-left {
   margin-right: 16px;
 }
 
-/*CSS MAPA*/
+/*CSS UBICACIÓN*/
+input{
+  border-radius: 7px;
+  width: 300px;
+  height: 30px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
